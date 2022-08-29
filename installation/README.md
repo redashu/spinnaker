@@ -337,14 +337,14 @@ root@ip-172-31-23-80:/etc/apache2/sites-enabled# cat spinnaker.conf
 ### step 7 -- restarting all the services 
 
 ```
-root@ip-172-31-23-80:~# sudo systemctl restart apache2
-root@ip-172-31-23-80:~# sudo systemctl restart gate
-root@ip-172-31-23-80:~# sudo systemctl restart orca
-root@ip-172-31-23-80:~# sudo systemctl restart igor
-root@ip-172-31-23-80:~# sudo systemctl restart front50
-root@ip-172-31-23-80:~# sudo systemctl restart echo
-root@ip-172-31-23-80:~# sudo systemctl restart clouddriver
-root@ip-172-31-23-80:~# sudo systemctl restart rosco
+ sudo systemctl restart apache2
+ sudo systemctl restart gate
+sudo systemctl restart orca
+sudo systemctl restart igor
+ sudo systemctl restart front50
+ sudo systemctl restart echo
+ sudo systemctl restart clouddriver
+ sudo systemctl restart rosco
 ```
 
 ### access it using IP:9000 -- handled by deck 
