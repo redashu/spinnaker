@@ -42,3 +42,11 @@ spinnaker@ip-172-31-23-80:~$ hal config ci jenkins master edit aws-jenkins --csr
   Success
 + Edited aws-jenkins for jenkins.
 ```
+
+### apply the changes 
+
+```
+sudo hal deploy apply 
+```
+
+
