@@ -50,3 +50,14 @@ sudo hal deploy apply
 ```
 
 
+## To trigger job on spinnaker using jenkins 
+
+### we need to Install a plugin in jenkins 
+
+<img src="plugin.png">
+
+### making changes in global security config -- 
+
+<img src="global.png">
+
+
